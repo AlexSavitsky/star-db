@@ -1,0 +1,9 @@
+.item-list {
+    cursor: pointer;
+    display: flex;
+    
+}
+
+.item-list .list-group {
+    margin-top: 1rem;
+}
