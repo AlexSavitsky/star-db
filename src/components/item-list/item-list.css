@@ -1,6 +1,8 @@
 .item-list {
+    width: 580px;
     cursor: pointer;
-    display: flex;
+    float: left;
+    margin-right: 1rem;
     
 }
 
