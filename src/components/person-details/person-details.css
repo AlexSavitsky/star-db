@@ -4,6 +4,7 @@
   flex-direction: row;
   padding: 1rem;
   float: right;
+  border-radius: 10px;
 }
 
 .person-details .person-image {
@@ -15,8 +16,9 @@
 
 .person-details .list-group-item {
   padding: 0.25rem;
+  width: 100%;
 }
 
 .person-details .list-group-item .term {
-  margin-right: 2rem;
+  margin-right: 0.5rem;
 }

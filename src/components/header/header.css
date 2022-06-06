@@ -1,7 +1,5 @@
 .header {
-  display: flex;
-  align-content: center;
-
+  display: inline;
 }
 
 .header h1 {
@@ -10,9 +8,9 @@
 }
 
 .header button {
-  width: 80%;
+  width: 10rem;
   margin-top: 0.3rem;
-  margin-right: 140px;
+  margin-right: 5rem;
   background: none;
   padding: 8px;
   font-size: 17px;
