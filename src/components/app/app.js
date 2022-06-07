@@ -9,13 +9,23 @@ import "./app.css";
 
 export default class App extends Component {
 
+  state={
+    selectedPerson: null
+  } 
+
+  onPersonSelected = (id) => {
+    this.setState({ 
+      selectedPerson: id,
+    });
+  }
+
   render() {
     return (
       <div className="star-db-app">
           <Header/>
           <RandomPlanet/>
-          <ItemList/>
-          <PersonDetails/>
+          <ItemList onItemSelected={this.onPersonSelected}/>
+          <PersonDetails personId={this.state.selectedPerson}/>
       </div>
     );
   }
