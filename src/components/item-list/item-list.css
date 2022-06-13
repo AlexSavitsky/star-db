@@ -1,11 +1,9 @@
 .item-list {
-    width: 50%;
+    width: 100%;
     cursor: pointer;
-    float: left;
-    margin-right: 1rem;
     border-radius: 10px;
 }
 
 .item-list .list-group {
-    margin-top: 1rem;
+    margin-top: 1.5rem;
 }
