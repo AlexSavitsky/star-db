@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import "./item-details.css";
 import ErrorBoundry from "../error-boundry";
+import Spinner from "../spinner"
 
 
 const Record = ({ item, field, label }) => {
@@ -45,16 +46,20 @@ export default class ItemDetails extends Component {
   }
 
   render() {
-    const { item, image } = this.state;
+    const { item, image, loading } = this.state;
 
     if (!item) {
       return <span className="person-select">Select item from a list</span>;
     }
 
+    if(loading) {
+        return <Spinner/>
+    }
+
     return (
       <ErrorBoundry>
         <div className="person-details card">
-          <img className="person-image" src={image} />
+          <img className="person-image" alt="person-image" src={image} />
 
           <div>
             <h3>{item.name}</h3>
