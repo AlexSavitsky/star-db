@@ -3,7 +3,6 @@ import "./item-details.css";
 import ErrorBoundry from "../error-boundry";
 import Spinner from "../spinner"
 
-
 const Record = ({ item, field, label }) => {
   return (
     <li className="list-group-item">
@@ -49,6 +48,7 @@ export default class ItemDetails extends Component {
     const { item, image, loading } = this.state;
 
     if (!item) {
+      
       return <span className="person-select">Select item from a list</span>;
     }
 
