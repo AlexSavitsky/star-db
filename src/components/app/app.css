@@ -1,0 +1,12 @@
+.star-db-app {
+    margin: 1rem auto 0 auto;
+    max-width: 1100px;
+  }
+
+  .star-db-app h2 {
+    display: flex;
+    color: rgb(110, 219, 233);
+    justify-content: center;
+    margin-top: 3rem;
+  }
+  

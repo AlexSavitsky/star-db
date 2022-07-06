@@ -1,0 +1,24 @@
+.random-planet {
+    display: flex;
+    background-color: rgb(48, 48, 48);
+    border-radius: 10px;
+    margin-top: 10px;
+    padding: 1rem;
+}
+
+.random-planet .planet-image {
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+    margin-right: 2rem;
+}
+
+.random-planet .list-group {
+    margin-top: 5px;
+    font-size: 16px;
+    
+}
+
+.term {
+    color: rgb(187, 186, 186);
+}

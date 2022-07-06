@@ -1,0 +1,9 @@
+.item-list {
+    width: 100%;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.item-list .list-group {
+    margin-top: 1.5rem;
+}

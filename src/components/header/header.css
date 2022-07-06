@@ -1,0 +1,26 @@
+.header {
+  margin: 10px auto;
+}
+
+.nav{
+  justify-content: center;
+  align-items: stretch;
+}
+
+.header h1 {
+  color: white;
+  margin-right: 100px;
+  font-size: 50px;
+}
+
+.header button {
+  width: 10rem;
+  height: 3rem;
+  margin-right: 5rem;
+  background: none;
+  padding: 8px;
+  font-size: 17px;
+  color: rgb(211, 210, 210);
+  border-radius: 10px;
+  border: 2px solid;
+}
